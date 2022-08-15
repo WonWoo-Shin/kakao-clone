@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats - Kakao Talk</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icon">
+        <span><i class="fa-solid fa-magnifying-glass"></i></span>
+        <span><i class="fa-solid fa-comment-dots"></i></span>
+        <span><i class="fa-solid fa-music"></i></span>
+        <span>
+          <a href="settings.html">
+            <i class="fa-solid fa-gear">
+              <div class="screen-header__alert"></div>
+            </i>
+          </a>
+        </span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <a href="chat.html">
+        <div class="user-component user-component__chat">
+          <div class="user-component__column">
+            <img
+              class="user-component__avatar"
+              src="https://play-lh.googleusercontent.com/yCkEw_4aAzE2-i2IP1ZSBrLvJixeNmkgKemWvtdHCAhSyJnGArTHjNmpEy9rx8Ledw=w240-h480-rw"
+            />
+            <div class="user-component__text">
+              <h3 class="user-component__title">Lion</h3>
+              <h5 class="user-component__subtitle">hello</h5>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div class="user-component__time">21:55</div>
+            <div class="badge">1</div>
+          </div>
+        </div>
+      </a>
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="fa-regular fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <div class="nav__notification badge">1</div>
+            <i class="fa-solid fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <i class="fa-solid fa-ellipsis"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="no-mobile">
+      <span>Your screen is too big</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/fc3c869357.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
